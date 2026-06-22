@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #e8e8e8;
+}
+
+header {
+    background-color: bisque ;
+    height: 50px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.columns {
+  column-count: 3;
+  /* column-width: 350px; */
+  column-gap: 30px;
+  column-rule: 2px solid #e40066;
+}
